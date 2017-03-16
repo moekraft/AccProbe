@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.a11y.utils.accprobe.core;singleton:=true
-Bundle-Version: 1.2.0.qualifier
+Bundle-Version: 1.2.2.qualifier
 Bundle-Activator: org.a11y.utils.accprobe.core.model.ModelPlugin
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
@@ -22,6 +22,6 @@ Export-Package: org.a11y.utils.accprobe.core,
  org.a11y.utils.accprobe.core.resources,
  org.a11y.utils.accprobe.core.runtime
 Bundle-ClassPath: .
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 

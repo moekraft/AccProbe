@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.a11y.utils.accprobe.accservice;singleton:=true
-Bundle-Version: 1.2.0.qualifier
+Bundle-Version: 1.2.2.qualifier
 Bundle-Activator: org.a11y.utils.accprobe.accservice.core.AccessibilityServicePlugin
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
@@ -16,7 +16,7 @@ Export-Package: org.a11y.utils.accprobe.accservice,
  org.a11y.utils.accprobe.accservice.core,
  org.a11y.utils.accprobe.accservice.event,
  org.a11y.utils.accprobe.accservice.locate
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Import-Package: org.a11y.utils.accprobe.core.model,
  org.a11y.utils.accprobe.core.logging,
